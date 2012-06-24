@@ -4,7 +4,7 @@ Donate link: http://plugins.mine-crafters.eu/
 Tags: bukkit, minecraft, server, status, serverstatus, info, bukkit serverstatus
 Requires at least: 2.0.2
 Tested up to: 2.1
-Stable tag: 4.3
+Stable tag: 1.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.txt
 
@@ -28,6 +28,7 @@ Need only enable-query=true line in server.properties.
 = Can´t Connect? =
 
 Make sure you added enable-query=true line to server.properties.
+Make sure you got enabled php function fsockopen().
 
 == Screenshots ==
 
@@ -39,7 +40,14 @@ Make sure you added enable-query=true line to server.properties.
 = 1.0 =
 * Release.
 
+= 1.2 =
+* Repair class.
+
 == Upgrade Notice ==
 
 = 1.0 =
 * Release.
+
+= 1.2 =
+* Repair class.
+
